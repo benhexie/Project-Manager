@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Manager</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Project Manager</h1>
+        <div class="about-div">
+            <a href="/about.html" style="text-decoration: none;">
+                <div class="about-btn btn">About</div>
+            </a>
+        </div>
+    </header>
+    <main>
+        <div class="index-div">
+            <pre id="title-img">####################################################
+###############           ...........###############
+##############   PROJECT MANAGER    ################
+####################################################
+###############      project by      ###############
+###############                      ###############
+###.. Benedict Gabriel  &  Amblessed Ohikhuare ..###
+###....   21/0983                21/0775     ....###
+####################################################
+###############...........           ###############
+####################################################
+            </pre>
+            <div class="list-div">
+                <label for="projects-list">Projects: </label>
+                <select name="projects-list" id="projects-list">
+                    <option value="#">#</option>
+                </select>
+                <div class="list-btn btn">Select Project</div>
+            </div>
+            <div class="add-btn-div">
+                <div class="add-btn btn" id="new-project">Add a new project</div>
+            </div>
+        </div>
+        <div class="new-project-div">
+            <div class="add-project-div">
+                <div class="back">
+                    <i class="fa-solid fa-arrow-left-long"></i>
+                    <span>Back</span>
+                </div>
+                <div class="new-project-content">
+                    <form action="" method="post">
+                        <input type="text" id="name" placeholder="Enter your name" class="">
+                        <input type="text" id="matric" placeholder="Enter your matric no.">
+                        <input type="text" id="path" placeholder="Enter your project path">
+                        <input type="submit" class="add-btn btn" id="add-project" value="Add Project">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="line">
+    </footer>
+    <script src="app.js"></script>
+    <script src="https://kit.fontawesome.com/57044fb96a.js" crossorigin="anonymous"></script>
+</body>
+</html>

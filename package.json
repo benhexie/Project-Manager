@@ -1,0 +1,11 @@
+{
+  "name": "Project Manager",
+  "author": {
+    "name": "Benedict Gabriel"
+  },
+  "description": "App for managing projects.",
+  "dependencies": {
+    "express": "^4.18.1",
+    "multer": "^1.4.5-lts.1"
+  }
+}
